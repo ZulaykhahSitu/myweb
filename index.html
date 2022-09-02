@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .about_container {
+      display: flex;
+      padding: 10px 200px;
+      align-items: center;
+      column-gap: 5%;
+    }
+
+    .about_me {
+      text-align: center;
+
+    }
+
+    .about_button {
+      background-color: black;
+      color: white;
+      padding: 10px 40px;
+      border-radius: 10%;
+    }
+
+    @media screen and (max-width: 768px) {
+
+      .about_container {
+        display: block;
+        padding: 20px 20px;
+      }
+
+    }
+
+    @media screen and (max-width: 1200px) {
+
+      .about_container {
+        padding: 20px 20px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="about_me">About Me</h1>
+
+  <div class="about_container">
+    <div> <img src="./mypics.jpg" width="300px"></div>
+    <div class="about_text">
+      <h2>Wanna know me?</h2>
+      <p>I am Yetunde Situ.The CEO of Yetty-lingeries.I am a 400level Computer Engineering Student of Obafemi Awolowo
+        University,Ile-ife,Osun state.I am native of Iwo,Osun state.I am a beginner in learning website development.I am
+        a married woman.My husband and I lives in Lagos. Thank you. </p>
+      <button class="about_button">Know more</button>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
